@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/bgrColor"
+    tools:context=".Camarita" >
+    
+
+    <Button
+        android:id="@+id/cargarBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="71dp"
+        android:text="@string/cargar" 
+        android:background="@color/btnColor" 
+        android:textColor="@color/textColor"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/buscarBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cargarBTN"
+        android:layout_alignRight="@+id/cargarBTN"
+        android:layout_below="@+id/cargarBTN"
+        android:layout_marginTop="16dp"
+        android:text="@string/buscar" 
+        android:background="@color/btnColor"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

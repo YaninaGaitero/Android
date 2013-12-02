@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RegistroDeElementos</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cargar">Cargar nueva foto</string>
+    <string name="buscar">Buscar foto</string>
+    <color name="bgrColor">#9FE4C5</color>
+    <color name="btnColor">#000000</color>
+    <color name="textColor">#FFFFFF</color>
+    <string name="nombre">Nombre</string>
+    <string name="descripcion">Descripción</string>
+    <string name="categoria">Categoría</string>
+    <string name="fecha">Fecha</string>
+    <string name="lugar">Lugar</string>
+    <string name="desdeCamaraBTN">Obtener desde camara</string>
+    <string name="desdeGaleriaBTN">Obtener desde galeria</string>
+
+</resources>
